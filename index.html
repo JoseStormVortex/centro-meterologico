@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Centro Meteorológico</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css">
+<script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"></script>
+
+<script src="https://api.windy.com/assets/map-forecast/libBoot.js"></script>
+
+</head>
+<body>
+
+<div id="menu">
+<button onclick="cambiarCapa('wind')">💨 Viento</button>
+<button onclick="cambiarCapa('cape')">⚡ CAPE</button>
+<button onclick="cambiarCapa('rh')">💧 Humedad</button>
+<button onclick="cambiarCapa('temp')">🌡 Temperatura</button>
+<button onclick="cambiarCapa('satellite')">🛰 Satélite</button>
+</div>
+
+<div id="windy"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
