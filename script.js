@@ -1,5 +1,5 @@
 const options = {
-    key: "jNitNusP7qb0VToXI8tJ1Z7ZJNUJf9JS",
+    key: "h8r1YFgpheORAVXR8tO5YSy02mlcBubx",
     lat: 20.6597,
     lon: -103.3496,
     zoom: 7,
